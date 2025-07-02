@@ -1,0 +1,21 @@
+How to compile:
+
+- Install Visual Studio Community 2022
+  Download from: https://visualstudio.microsoft.com/vs/community/
+  During setup, ensure these options are selected:
+    - C++ MFC build tools
+    - Game Development with C++
+
+- Install the DirectX SDK (June 2010)
+  Download from: https://www.microsoft.com/en-ca/download/details.aspx?id=6812
+
+- Build the Project:
+  Open XorPlayer.sln in Visual Studio.
+
+- Compile the solution.
+  If successful, the executable will be generated at:
+  XorPlayer\vis_milk2\Release\XorPlayer.exe
+  Launch Requirements:
+  The compiled XorPlayer.exe requires the XorFiles folder
+  (included in XorPlayer\vis_milk2\Release\XorFiles).
+
